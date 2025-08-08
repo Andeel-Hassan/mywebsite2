@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+ <style>
+  .container{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
+}
+.box1{
+    background-image: url(city-skyline-sunrise-sunset.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.content1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    box-sizing: border-box;
+    align-items: baseline;
+}
+.text1{
+width: 140px;
+height: auto;
+flex-basis: 850px;
+font-size: 25px;
+}
+.text11:hover{
+    background-color:blue;
+    width:110px ;
+    height:25px;
+}
+.text11:active{
+    background-color:greenyellow;
+    width:110px ;
+    height:25px;
+}
+.text2{
+width: 140px;
+height:auto;
+padding: 20px 20px 20px 0px;
+font-size: 20px;
+}
+.text21:hover{
+    background-color: blue;
+    width: 104px;
+    height: 22px;
+}
+.text21:active{
+    background-color:greenyellow;
+    width: 104px;
+    height: 22px;
+}
+.text3{
+width: 140px;
+height: auto;
+padding:20px 20px 20px 0px;
+font-size: 20px;
+}
+.text31:hover{
+    width: 84px;
+    height: 21px;
+    background-color: blue;
+}
+.text31:active{
+     width: 84px;
+    height: 21px;
+    background-color: greenyellow;
+}
+.text4{
+width: 140px;
+height: auto;
+padding:20px 20px 20px 0px;
+font-size: 20px;
+}
+.text41:hover{
+    width: 95px;
+    height: 21px;
+    background-color: blue;
+}
+.text41:active{
+      width: 95px;
+    height: 21px;
+    background-color: greenyellow;
+}
+.content2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.column1{
+    width: 380px;
+    height: 90px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.column2{
+    width:230px;
+    height: 60px;
+    font-size: 20px;
+}
+.content3{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+}
+.iconr{
+    color: rgb(169, 126, 74);
+    font-size: 30px;
+    padding: 10px;
+    transition: transform 1s ease-in-out ;
+}
+.iconr:hover{
+    transform: rotate(180deg);
+}
+.box2{
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.content4{
+    width: 470px;
+    height: auto;
+    background-image: url(trees.gif);
+    background-size: cover;
+    border-radius: 15px;
+}
+.content4:hover{
+    box-shadow: 0px 0px 15px rgb(58, 58, 58);
+}
+.content5{
+    width: 754px;
+    height: auto;
+    padding: 40px;
+}
+.con51{
+    width: 100%;
+    height: 68px;
+    color: rgb(19, 114, 239);
+}
+.q{
+    font-size: 30px;
+}
+.q:hover{
+text-transform: uppercase;
+}
+.con52{
+    width: 100%;
+    height: 125px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.con53{
+    width: 100%;
+    height:120px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.b{
+    color: rgb(19,114,239);
+}
+.con54{
+   background-color: rgb(19, 114, 239);
+    width: 140px;
+    height:50px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   text-align: center;
+   padding: 12px;
+   box-sizing: border-box;
+   color: white;
+   font-size: 20px;
+}
+.con54:hover{
+    box-shadow: 0px 0px 15px rgb(46, 46, 46);
+}
+.box3{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.content6{
+    width: 370px;
+    height: auto;
+    display: flex;
+      justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.con61{
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 114, 239);
+}
+.icon1{
+width: 37px;
+height: 39px;
+font-size: 35px;
+}
+.icon1:hover{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.con62{
+width: 209px;
+height: 40px;
+font-size: 28px;
+color: rgb(19,114,239);
+}
+.con63{
+    width: 290px;
+    height: 120px;
+    font-size: 20px;
+    color: rgb(32, 31, 31);
+    line-height: 25px;
+}
+.content7{
+    width: 370px;
+    height: auto;
+     display: flex;
+      justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con71{
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 114, 239);
+}
+.icon2{
+width: 39px;
+height: 41px;
+font-size: 35px;
+}
+.icon2:hover{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.con72{
+width: 209px;
+height: 50px;
+font-size: 28px;
+color: rgb(19,114,239);
+}
+.con73{
+    width: 290px;
+    height: 120px;
+    font-size: 20px;
+    color: rgb(32, 31, 31);
+    line-height: 25px;
+}
+.content8{
+    width: 370px;
+    height: auto;
+     display: flex;
+      justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con81{
+    width: 250px;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+    color: rgb(19, 114, 239);
+}
+.icon3{
+width: 37px;
+height: 39px;
+font-size: 35px;
+}
+.icon3:hover{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.con82{
+width: 230px;
+height: 50px;
+font-size: 28px;
+color: rgb(19,114,239);
+}
+.con83{
+    width: 290px;
+    height: 120px;
+    font-size: 20px;
+    color: rgb(32, 31, 31);
+    line-height: 25px;
+}
+.box4{
+    width:100%;
+    height: 590px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.content9{
+    width: 530px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.con91{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    color: rgb(19,114,239);
+}
+.con91:hover{
+    text-decoration: underline;
+}
+.con92{
+    width: 530px;
+    height: 30px;
+    font-size: 19px;
+    color: black;
+}
+.con93{
+    width: 490px;
+    height: 40px;
+    font-size: 19px;
+    color: black;
+}
+.content10{
+    width: 1230px;
+    height:250px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+}
+.con101{
+    width:230px ;
+    height:auto;
+    background-image: url(car.gif);
+    background-size: cover;
+     position: relative;
+     overflow: hidden;
+}
+.display1{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:-250px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 3s;
+}
+.con101:hover .display1{
+    left: 0px;
+}
+.con102{
+    width:230px ;
+    height: auto;
+    background-image: url(istockphoto-2194506750-1024x1024.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.display2{
+    background-color: rgb(230, 13, 13);
+    font-size: 30px;
+    color:bisque;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:-250px;
+    left:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 4s;
+}
+.con102:hover .display2{
+    top: 0px;
+}
+.con103{
+    width:230px ;
+    height: auto;
+    background-image: url(furniture.gif);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.display3{
+    background-color: rgb(107, 102, 102);
+    font-size: 30px;
+    color:rgb(255, 106, 0);
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:-300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 3s;
+}
+.con103:hover .display3{
+    left: 0px;
+}
+.con104{
+    width:230px ;
+    height: auto;
+    background-image: url(hut.gif);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.display4{
+    background-color: rgb(11, 73, 216);
+    font-size: 30px;
+    color: rgb(114, 221, 13);
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:-300px;
+    left:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 3s;
+}
+.con104:hover .display4{
+    top: 0px;
+}
+.con105{
+    width:230px ;
+    height: auto;
+    background-image: url(buldings.gif);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.display5{
+    background-color:green;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:-300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 3s;
+}
+.con105:hover .display5{
+    left: 0px;
+}
+.content11{
+    width: 250px;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con111{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+
+.content11:has(.con112:hover) .con111,
+.content11:has(.con113:hover) .con111 {
+  background-color: gray;
+} 
+
+.con112{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+    margin: 5px;
+}
+.con112:hover{
+    background-color: blue;
+}
+.con113{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.con113:hover{
+    background-color: blue;
+}
+.box5{
+    width: 100%;
+    height: 600px;
+    background-image: url(seattle-sunrise-skyline-silhouette-view-with-urban-office-buildings.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content12{
+    width:1100px ;
+    height:180px ;
+    padding: 100px 100px 100px 0px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: white;
+}
+.con121{
+    width:190px ;
+    height: 50px;
+}
+.con121:hover{
+    background-color: blueviolet;
+    width: 190px;
+}
+.content13{
+    width: 1100px;
+    height:90px ;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+.content14{
+    width:1100px ;
+    height: 70px;
+    display: flex;
+}
+.con141{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+.con{
+    width: 10%;
+    height: auto;
+    font-size: 30px;
+    color: white;
+}
+.con1{
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    color: white;
+}
+.con142{
+      width: 40%;
+    height: auto;
+    display: flex;
+}
+.cona{
+    width: 15%;
+    height: auto;
+    font-size: 30px;
+    color: white;
+}
+.conb{
+    width:85% ;
+    height: auto;
+    font-size: 20px;
+    color: white;
+}
+.content15{
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.con151{
+    width: 55%;
+    height: 50px;
+    display: flex;
+  
+}
+.conc{
+    width: 10%;
+    height: auto;
+  color: white;
+  font-size: 40px;
+
+}
+.cond{
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    color: white;
+   padding: 10px;
+    box-sizing: border-box;
+}
+.con152{
+    width:25% ;
+    height: 50px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.con152:hover{
+    background-color: rgb(23, 127, 218);
+}
+.con153{
+    width: 12%;
+    height:50px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+.content16{
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+}
+/* Responsive for Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .container,
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .content5,
+  .content10,
+  .content12,
+  .content13,
+  .content14,
+  .content15 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .content1,
+  .content3,
+  .content10,
+  .box3,
+  .box4,
+  .content14,
+  .content15 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content4,
+  .content5,
+  .con101,
+  .con102,
+  .con103,
+  .con104,
+  .con105 {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .text1, .text2, .text3, .text4 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .con121, .con152, .con153 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .content11 {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* Responsive for Mobiles (480px and below) */
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+
+  .content1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text1, .text2, .text3, .text4 {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .box2, .box3, .box4, .box5 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .icon1, .icon2, .icon3 {
+    font-size: 28px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .display1, .display2, .display3, .display4, .display5 {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .content10 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .content12 {
+    font-size: 24px;
+    padding: 40px 20px;
+  }
+
+  .content13 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .content14,
+  .content15 {
+    flex-direction: column;
+  }
+
+  .con141, .con142, .con151, .con152, .con153 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .content16 {
+    text-align: center;
+  }
+}
+
+
+ </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+</head>
+<body>
+  <div class="container">
+    <!-- This is box 1 -->
+    <div class="box1">
+      <div class="content1">
+        
+        <div class="text1"><div class="text11"><b>The Town</b></div></div>
+        <div class="text2"><div class="text21">Introduction</div></div>
+        <div class="text3"><div class="text31">Our Work</div></div>
+        <div class="text4"><div class="text41">Contact Us</div></div>
+      </div>
+      <div class="content2">
+        <div class="column1"><h1>The Town</h1></div>
+        <div class="column2">Parallax Bootstrap Theme by TemplateMo</div>
+      </div>
+      <div class="content3">
+        <div class="icon">
+          <i class="fa-solid fa-caret-down iconr"></i>
+        </div>
+      </div>
+      <!-- this is box 2 -->
+<div class="box2">
+  <div class="content4"></div>
+  <div class="content5">
+    <div class="con51"><b class="q">Introduction</b></div>
+    <div class="con52">The Town  of <b >Simple Css Template</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis expedita adipisci praesentium laborum tenetur magni! Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, eligendi?</div>
+    <div class="con53">Please tel your friends Lorem ipsum dolor sit amet. at the rate of pcc about <b class="b">Website</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure labore sit rem eius sunt, quos ab odit esse nam adipisci.</div>
+    <div class="con54">Read More</div>
+  </div>
+ 
+</div>
+    
+     <!-- this is box 3 -->
+<div class="box3">
+  <div class="content6">
+    <div class="con61"><i class="ri-bus-line icon1"></i></div>
+    <div class="con62">Benefits of Buses</div>
+    <div class="con63">Buses are best alternative to reduce Pollution in the society.By using public transport the percentage of pollution will definitely decline.</div>
+  </div>
+  <div class="content7">
+    <div class="con71"><i class="fa-solid fa-bicycle icon2" ></i></div>
+    <div class="con72">Benfits of Bicycle</div>
+    <div class="con73">Buses are best alternative to reduce Pollution in the society.By using public transport the percentage of pollution will definitely decline.</div>
+  </div>
+  <div class="content8">
+    <div class="con81"><i class="ri-hotel-line icon3"></i></div>
+    <div class="con82">Buildings in Society</div>
+    <div class="con83">Buildings are man-made structures designed for human use, such as homes, offices, and schools. They provide shelter, safety, and space.</div>
+  </div>
+</div>
+<!-- this is box 4 -->
+ <div class="box4">
+  <div class="content9">
+    <div class="con91">Our Work</div>
+    <div class="con92">A hard working person can always get success and achieve his goals.</div>
+    <div class="con93">So, focus on your goals and do hard work you will get success.</div>
+  </div>
+  <div class="content10">
+    <div class="con101">
+      <div class="display1">For creative, ambitious work culture images</div>
+    </div>
+    <div class="con102"><div class="display2">For teamwork or small-step illustrations</div></div>
+    <div class="con103"><div class="display3">For inspirational or leadership-focused content</div></div>
+    <div class="con104"><div class="display4">Sapnay wohi poore hotay hain jo jaagte hue dekhe jayein</div></div>
+    <div class="con105"><div class="display5">For images of effort, struggle, office, or workers</div></div>
+  </div>
+  <div class="content11">
+    <div class="con111"></div>
+    <div class="con112"></div>
+    <div class="con113"></div>
+  </div>
+ </div>
+ <!-- this is box 5 -->
+  <div class="box5">
+    <div class="content12"><div class="con121">Contact Us</div></div>
+    <div class="content13">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo dicta voluptates corporis eum culpa commodi ea maiores repellat cum? Minima vitae beatae fugiat. Omnis, neque nihil. Amet beatae quod soluta?</div>
+    <div class="content14">
+      <div class="con141">
+        <div class="con"><i class="fa-solid fa-phone"></i></div>
+        <div class="con1">0343-1448843</div>
+      </div>
+      <div class="con142">
+        <div class="cona"><i class="ri-mail-line"></i></div>
+        <div class="conb">hassan29@gmail.com</div>
+      </div>
+    </div>
+    <div class="content15">
+      <div class="con151">
+        <div class="conc"><i class="ri-map-pin-line"></i></div>
+        <div class="cond">Location on map</div>
+      </div>
+      <div class="con152">Subscribe your Email</div>
+      <div class="con153">Submit</div>
+    </div>
+    <div class="content16">That is flex @ assignmet Created by Andeel Hassan </div>
+  </div>
+  </div>
+
+</body>
+</html>
